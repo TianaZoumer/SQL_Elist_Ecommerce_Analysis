@@ -1,6 +1,6 @@
 # SQL_Elist_Ecommerce_Analysis
 
-NA Elist Macbook quarterly sales trends:
+NA Elist Macbook quarterly sales trends(all years):
 - 2020 shows highest rates of orders
 - Q1 the highest order_count in 2021 and 2022
 
@@ -16,10 +16,10 @@ Account Creation Method(Jan-Feb 2022):
 - Desktop had the highest creation of loyalty customers (636)
 - The unknown resource has our highest AOV ($319), and 57 customers
 
-  Time to Purchase(all years):
-  - Loyalty members average 52 days from registration to first purchase
-  - Non-loyalty members average 74 days from registration to first purchase
+Time to Purchase(all years):
+- Loyalty members average 52 days from registration to first purchase
+- Non-loyalty members average 74 days from registration to first purchase
  
- Marketing Channels Regional Performance(all years):
- - Direct has the highest num_orders, total_sales, and aov
- - Email has the second highest num_orders, total_sales and aov
+Marketing Channels Regional Performance(all years):
+- Direct has the highest num_orders, total_sales, and aov
+- Email has the second highest num_orders, total_sales and aov
