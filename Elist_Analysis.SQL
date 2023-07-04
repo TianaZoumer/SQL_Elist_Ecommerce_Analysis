@@ -87,7 +87,7 @@ WITH days_to_purchase_cte as (
 FROM elist.orders orders
 LEFT JOIN elist.customers customers
   ON orders.customer_id = customers.id
-ORDER BY 1;
+ORDER BY 1
 )
 --take the average of the number of days to purchase
 SELECT AVG(days_to_purchase)
@@ -106,10 +106,10 @@ LEFT JOIN elist.customers customers
 LEFT JOIN elist.geo_lookup geo_lookup
   ON customers.country_code = geo_lookup.country
 GROUP BY 1, 2
-ORDER BY 1, 2;
+ORDER BY 1, 2
 )
 --rank the channels by total sales, and order the dataset by this ranking to surface the top channels per region first
 SELECT *,
   row_number() over (partition by region order by num_orders desc) as ranking
 FROM region_orders
-ORDER BY 6 asc;
+ORDER BY 6 asc
