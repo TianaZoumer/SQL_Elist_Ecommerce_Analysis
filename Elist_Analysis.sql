@@ -118,4 +118,4 @@ ORDER BY 1, 2
 SELECT *,
   row_number() over (partition BY region ORDER BY num_orders DESC) AS ranking
 FROM region_orders
-ORDER BY 6 asc
+ORDER BY 6 asc;
